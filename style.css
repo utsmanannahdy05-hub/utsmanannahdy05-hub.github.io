@@ -1,0 +1,323 @@
+/* GLOBAL STYLE*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", Arial, sans-serif;
+  line-height: 1.6;
+  background: #cfddf1;
+  color: #333;
+  text-align: center;
+}
+
+
+h1, h2, h3 {
+  margin-bottom: 15px;
+  color: #1a237e;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  margin: 15px auto;
+  width: 80%;
+  border: 1px solid #ccc;
+}
+
+/*HEADER / NAVBAR */
+header {
+  margin: 20px 0;
+}
+
+.nav {
+  text-align: center;
+  margin: 20px 0;
+}
+.nav ul {
+  flex-wrap: wrap;
+}
+.nav a {
+  display: inline-block;
+  text-decoration: none;
+  color: #1a237e;
+  background: #e8ebf7;
+  padding: 8px 16px;
+  margin: 0 5px;
+  border-radius: 20px;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+.nav a.active,
+.nav a:hover {
+  background-color: #3949ab;
+  color: #fff;
+}
+
+/* ===============================
+   FOOTER
+=============================== */
+footer {
+  text-align: center;
+  background-color: #28308a;
+  color: white;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+/* ===============================
+   INDEX PAGE
+=============================== */
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #3f51b5;
+  margin: 10px auto;
+  display: block;
+}
+
+.kotak {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  width: 80%;
+  margin: 15px auto;
+  border: 1px solid #01050c;
+}
+
+.judul-kotak {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  border-left: 4px solid #facc15;
+  color: #095de3fb;
+  text-align: left;
+}
+
+.tombol-link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: #2563eb;
+  font-weight: 800;
+}
+
+.tombol-link:hover {
+  text-decoration: underline;
+}
+
+/* ===============================  
+   BIODATA PAGE
+=============================== */
+.photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #1a237e;
+  display: block;
+  margin: 10px auto;
+}
+
+ul {
+  list-style: square;
+  padding-left: 25px;
+  margin-top: 10px;
+}
+
+/* JADWAL PAGE */
+.table-container {
+  width: 80%;
+  margin: 20px auto;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table-title {
+  text-align: left;
+  font-weight: bold;
+  padding: 12px 15px;
+  background: #fff;
+  border-left: 4px solid #ffc107;
+  color: #1a237e;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #1a237e;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* ===============================
+   GALERI PAGE
+=============================== */
+.card-section {
+  margin: 30px auto;
+  width: 90%;
+  max-width: 1000px;
+  text-align: left;
+}
+
+.card-section h2 {
+  color: #1a237e;
+  border-left: 4px solid orange;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #bbb;
+  border-radius: 10px;
+  padding: 20px;
+}
+.card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  min-width: 200px;
+  max-width: 220px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: #bbb;
+}
+
+.card p {
+  padding: 10px;
+  font-size: 14px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+/* ===============================
+   FEEDBACK PAGE
+=============================== */
+form {
+  width: 85%;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #1a237e;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px solid #bbb;
+  font-size: 15px;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
+
+button {
+  background-color: #3f51b5;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #283593;
+}
+
+/* HP (<= 600px) */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 15px;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav a {
+    padding: 8px 14px;
+    font-size: 15px;
+    display: block;
+  }
+
+  .avatar .profile-img {
+    width: 90px;
+    height: 90px;
+    margin: auto;
+  }
+
+  .galeri-card {
+    width: 100%;
+  }
+
+  .video iframe {
+    width: 100%;
+    height: 200px;
+  }
+
+  table, th, td {
+    font-size: 13px;
+    padding: 8px;
+  }
+
+  .form-container {
+    padding: 10px;
+  }
+
+
+}
